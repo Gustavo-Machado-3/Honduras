@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body background = "imagen2.jpg" >
+    <h1>Formulario de Inscripción</h1>
+    <form>
+        <label for="usuario" > Nombres: </label><br>
+        <input type="text" name="usuario"  id="usuario"><br>
+        <label for="name">Apellido: </label><br>
+        <input type="text" name="name" id="name"><br>
+        <input type="hidden" name="sesion" id="sesion" value="2021-03-19">
+        <p>SEXO</p>
+        <label for="sexo"> Maculino</label> 
+        <input type="radio" name="sexo" id="masculino" value="m">
+        <label for="sexo"> Femenino</label> 
+        <input type="radio" name="sexo" id="Femenino" value="f"><br><br>
+        <p>Posición dentro del Terreno, donde Juega: </p> 
+        <label for="agua"> Portero</label>
+        <input type="checkbox" name="agua" id="agua" value="agua"> <br>
+        <label for="luz">Defensa Central</label>
+        <input type="checkbox" name="luz" id="luz" value="luz" checked> <br>
+        <label for="lat">Lateral Izquierdo</label>
+        <input type="checkbox" name="lat" id="lat" value="lat" checked> <br>
+        <label for="late">Laterar Derecho</label>
+        <input type="checkbox" name="late" id="late" value="late" checked> <br>
+        <label for="medio">Medio Campista</label>
+        <input type="checkbox" name="Medio" id="Medio" value="Medio" checked> <br>
+        <label for="telefono">Delantero</label>
+        <input type="checkbox" name="telefono" id="telefono" value="telefono"> <br><br>
+        <label for="foto">Foto del Jugador: </label>
+        <input type="file" name="foto" id="foto"><br><br>
+        <p>Datos De Inscripción</p>
+        <label for="edad">Ingresar edad: </label>
+        <input type="number" max="100" min="15" step="1" value="edad"><br> <br>
+        <label for="fecha">Fecha De Nacimiento: </label>
+        <input type="date" name="fecha" id="fecha" value="fecha"><br><br>
+        <label for="usuario">Departamento Natal: </label><br>
+        <input type="text" name="usuario"  id="usuario"><br>
+        <label for="usuario">Ciudad Natal: </label><br>
+        <input type="text" name="usuario"  id="usuario"><br>
+        <p>Ingrese Su Correo</p>
+        <label for="email">Email: </label>
+        <input type="email" placeholder="correo@dominio.com"></input><br><br>
+        <p>Sugerencia</p>
+        <label for="color">¿Qué color debería ser nuestro uniforme?: </label>
+        <input type="color"></input><br><br>
+        <input type="submit" value="Guardar">
+        <input type="reset" value="Cancelar">
+        
+        
+    </form>
+    <a href="indux.html">Regresar a la Pagina Principal</a>
+</body>
+</html>
